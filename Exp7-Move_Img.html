@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>CSS3 Animation</title>
+        <style>
+            .jittu{
+                margin: 50px;
+                width: 1000px;
+                height: 1300px;
+                background: url("globe.png")no-repeat;
+                position: relative;
+                animation: repeatit 2s linear 0s infinite alternate;
+            }
+            @keyframes repeatit{
+                from{left: 0;}
+                to{left: 50%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="jittu"></div>
+    </body>
+</html>
